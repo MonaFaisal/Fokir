@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+}
+.clear{
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin:auto;
+}
+/* start nav */
+.nav{
+    width: 100%;
+    float: right;
+    list-style: none;
+    margin: 0;
+    color: #fff;
+}
+.nav-left .fokir{
+    margin: 0;
+    display:block;
+    float: left;
+    color:#ff305b ;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 30px 20px;
+}
+.nav__pages {
+    float: right;
+    width: 60%;
+}
+.nav__pages ul{
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
+.nav__pages ul li{
+    display: inline-block;
+    padding: 15px 20px; 
+}
+.nav__pages ul li a{
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    padding: 15 20;
+}
+#home{
+    color:#ff305b ;
+}
+/* End Nav */
+/* Start Home */
+.home{
+    background: url(./image/slider-02.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.home .home__content{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+.home__content h3{
+    color: #fff;
+    margin: 0 0 10px;
+    font-weight: 600;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home__content h1{
+    color:#ff305b;
+    font-weight:bold;
+    font-size: 70px;
+    margin: 0 0 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home__content h4{
+    color: #fff;
+    margin: 0 0 10px;
+    font-weight: 600;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: moving 5s ease-in-out infinite;
+}
+/* End Home */
+.about__img{
+    border: 10px solid #555555;
+    border-radius: 2%;
+    width: 350px;
+    height: 400px;
+    margin: 80px 0;
+    position: relative;
+}
+.about__img img{
+    width: 100%;
+    left: 15px;
+    top: 15px;
+    position: absolute;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.about__img img:hover{
+    
+}
+.middel{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 106%;
+    left: 15px;
+    top: 15px;
+    position: absolute;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
